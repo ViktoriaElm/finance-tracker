@@ -1,14 +1,23 @@
-import './App.css'
+import './App.css';
+import Header from "../components/layout/Header.tsx";
+import Footer from "../components/layout/Footer.tsx";
+import TransactionForm from "../components/forms/TransactionForm.tsx";
 
-function App() {
+
+export default function App() {
 
   return (
     <>
-      <header className="header">
-        <h1>Finance tracker</h1>
-      </header>
 
-      <main className="finance-information">
+      <Header />
+
+      <main className="main-container">
+
+        <TransactionForm />
+
+        <div className="finace-information">
+
+        </div>
 
         {/* компонент для отображения текущего баланса */}
         {/* <Balance/> */}
@@ -23,9 +32,8 @@ function App() {
         {/* <TransactionItem/> */}
       </main>
 
-      <footer className="footer"></footer>
+      <Footer />
+
     </>
   )
 }
-
-export default App

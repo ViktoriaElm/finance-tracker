@@ -1,0 +1,7 @@
+.footer {
+    box-sizing: border-box;
+    background-color: pink;
+    padding: 20px;
+    min-height: 10vh;
+    color: black;
+}

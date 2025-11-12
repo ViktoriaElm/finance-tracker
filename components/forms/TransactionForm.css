@@ -1,0 +1,82 @@
+.finance-form {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 2em;
+    min-height: fit-content;
+    height: 100%;
+    width: 60vw;
+    background-color: var(--brown-color);
+    margin-top: calc(10vh + 40px);
+    margin-right: 20px;
+    margin-left: 20px;
+    border-top-right-radius: 15px;
+    border-top-left-radius: 15px;
+}
+
+.amount-input,
+.description-input,
+.category-input,
+.category-select {
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 16px;
+    border: 1px solid var(--light-brown-color);
+    outline: none;
+    text-transform: uppercase;
+    transition: background-color 0.3s ease;
+}
+
+.amount-input,
+.description-input,
+.category-input {
+    color: var(--gray-color);
+    height: 50px;
+}
+
+.category-select {
+color: var(--beige-color);
+height: 70px;
+}
+
+.category-selected-option {
+    color: var(--gray-color);
+}
+
+.amount-input::placeholder,
+.description-input::placeholder,
+.category-input::placeholder {
+    color: var(--beige-color);
+}
+
+.amount-input:hover,
+.description-input:hover,
+.category-input:hover,
+.category-select:hover {
+    outline: 1px solid var(--beige-color);
+}
+
+.amount-input:focus,
+.description-input:focus,
+.category-input:focus {
+    outline: 1px solid var(--light-brown-color);
+    border: 1px solid white;
+}
+
+.amount-input,
+.category-input {
+    width: 20%;
+}
+
+.description-input {
+    width: 40%;
+}
+
+.category-input {}
+
+.buttons-container {
+    display: flex;
+    justify-content: flex-end;
+    gap: 15px;
+    width: 15%;
+}

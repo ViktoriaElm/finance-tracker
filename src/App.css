@@ -5,14 +5,22 @@
   text-align: center;
 }
 
-.header {
-  display: flex;
-  gap: 15px;
+.main-container {
+  box-sizing: border-box;
+  min-height: 80vh;
   width: 100%;
-  min-height: fit-content;
-  border-bottom: 1px solid #ccb9b2;
+  margin-top: calc(10vh + 2px);
 }
 
-.finance-information {
+.finace-information {
   padding: 2em;
+  height: fit-content;
+  min-height: 300px;
+  width: 60vw;
+  background-color: var(--brown-color);
+  margin-top: 5px;
+  margin-right: 20px;
+  margin-left: 20px;
+  border-bottom-right-radius: 15px;
+  border-bottom-left-radius: 15px;
 }
