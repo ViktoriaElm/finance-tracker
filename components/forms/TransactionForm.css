@@ -5,6 +5,7 @@
     padding: 2em;
     min-height: fit-content;
     height: 100%;
+    min-width: 1045px;
     width: 60vw;
     background-color: var(--brown-color);
     margin-top: calc(10vh + 40px);

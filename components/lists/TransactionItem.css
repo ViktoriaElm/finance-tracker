@@ -1,0 +1,83 @@
+ul {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin: 0;
+    padding: 0;
+}
+
+.plan-fact-finace-information-item {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    min-height: 70px;
+    height: fit-content;
+    border: 1px solid var(--light-brown-color);
+    border-radius: 5px;
+    font-size: 18px;
+}
+
+.plan-fact-finace-information-input-box {
+    width: 5%;
+}
+
+.plan-fact-finace-information-input {
+    position: relative;
+    appearance: none;
+    width: 30px;
+    height: 30px;
+    border-radius: 5px;
+    accent-color: var(--light-brown-color);
+    background-color: rgb(250, 240, 222);
+    box-shadow: inset 0 0 5px rgb(0 0 0 / 0.2);
+    transition: 500ms;
+}
+
+.plan-fact-finace-information-input::after {
+    position: absolute;
+    content: "\2714";
+    width: 0px;
+    height: 0px;
+    top: -5px;
+    left: 2px;
+    font-size: 22px;
+    overflow: hidden;
+    transition: 500ms;
+}
+
+.plan-fact-finace-information-input:checked:after {
+    width: 30px;
+    height: 30px;
+    transform: translate(12%, 12%);
+    transition: 500ms;
+}
+
+.plan-fact-finace-information-input:disabled {
+    background: #ccc;
+    border-color: #ccc;
+}
+
+.plan-fact-finace-information-input:disabled::after {
+    filter: grayscale(100%);
+}
+
+.plan-fact-finace-information-ammoun-wrapper {
+    display: flex;
+    gap: 10px;
+    flex-grow: 1;
+}
+
+.plan-fact-finace-information-ammount {}
+
+.plan-fact-finace-information-currency {
+    text-transform: uppercase;
+}
+
+.plan-fact-finace-information-description {}
+
+.plan-fact-finace-information-category {
+    min-width: 15%;
+    width: fit-content;
+    text-transform: uppercase;
+    border-left: 1px solid var(--light-brown-color);
+}

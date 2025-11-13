@@ -2,7 +2,7 @@ import './App.css';
 import Header from "../components/layout/Header.tsx";
 import Footer from "../components/layout/Footer.tsx";
 import TransactionForm from "../components/forms/TransactionForm.tsx";
-
+import TransactionItem from "../components/lists/TransactionItem.tsx";
 
 export default function App() {
 
@@ -16,20 +16,16 @@ export default function App() {
         <TransactionForm />
 
         <div className="finace-information">
+          <TransactionItem />
 
         </div>
 
         {/* компонент для отображения текущего баланса */}
         {/* <Balance/> */}
 
-        {/* форма с полями: "Описание" (текст), "Сумма" (число), "Тип" (выпадающий список "Доход"/"Расход"), "Категория" (выпадающий список, например, "Еда", "Транспорт", "Зарплата") */}
-        {/* <TransactionForm/> */}
-
         {/* компонент для отображения списка транзакций */}
         {/* <TransactionList/> */}
 
-        {/* компонент для отображения одной транзакции (показывать описание, сумму, категорию) */}
-        {/* <TransactionItem/> */}
       </main>
 
       <Footer />
