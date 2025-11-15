@@ -1,6 +1,6 @@
 .button,
 .form-button {
-    transition: background-color 0.3s ease;
+    transition: 0.3s ease;
     cursor: pointer;
     background-color: transparent;
     color: var(--beige-color);
@@ -53,7 +53,11 @@
 }
 
 .form-button:hover {
-    background: var(--brown-color-hover);
+    background-color: rgba(97, 97, 99, 0.1);
+}
+
+.form-button:active {
+    background-color: rgba(97, 97, 99, 0.3);
 }
 
 .button:hover svg,

@@ -15,12 +15,16 @@
 
 .finace-information {
   padding: 2em;
-  height: fit-content;
-  min-height: 300px;
+  border: 5px solid var(--brown-color);
+  height: 52vh;
+  overflow-y: scroll;
+  scroll-behavior: smooth;
+  scrollbar-color: var(--beige-color) var(--brown-color);
   width: 60vw;
   min-width: 1045px;
   background-color: var(--brown-color);
   margin-top: 5px;
+  margin-bottom: 40px;
   margin-right: 20px;
   margin-left: 20px;
   border-bottom-right-radius: 15px;

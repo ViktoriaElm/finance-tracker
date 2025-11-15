@@ -1,6 +1,7 @@
 .finance-form {
     display: flex;
     align-items: center;
+    border: 5px solid var(--brown-color);
     gap: 10px;
     padding: 2em;
     min-height: fit-content;
@@ -23,9 +24,12 @@
     padding: 10px 20px;
     font-size: 16px;
     border: 1px solid var(--light-brown-color);
+    border-right: 15px solid var(--input-color);
+    background-color: var(--input-color);
     outline: none;
     text-transform: uppercase;
     transition: background-color 0.3s ease;
+
 }
 
 .amount-input,
@@ -37,7 +41,7 @@
 
 .category-select {
 color: var(--beige-color);
-height: 70px;
+height: 72px;
 }
 
 .category-selected-option {

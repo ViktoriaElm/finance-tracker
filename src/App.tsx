@@ -15,10 +15,20 @@ export default function App() {
 
         <TransactionForm />
 
-        <div className="finace-information">
+        <ul className="finace-information">
           <TransactionItem />
-
-        </div>
+          <TransactionItem />
+          <TransactionItem />
+          <TransactionItem />
+          <TransactionItem />
+          <TransactionItem />
+          <TransactionItem />
+          <TransactionItem />
+          <TransactionItem />
+          <TransactionItem />
+          <TransactionItem />
+          <TransactionItem />
+        </ul>
 
         {/* компонент для отображения текущего баланса */}
         {/* <Balance/> */}

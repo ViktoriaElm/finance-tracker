@@ -1,0 +1,50 @@
+.action-popup {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: fit-content;
+    min-width: 150px;
+    height: fit-content;
+    background-color: var(--input-color);
+    color: var(--gray-color);
+    border-radius: 5px;
+}
+
+hr {
+    margin: 0;
+    padding: 0;
+}
+
+hr {
+    border: 1px solid rgb(97, 97, 99, 0.2);
+}
+
+.action-popup-edit,
+.action-popup-delete {
+    margin: 0;
+    padding: 0;
+    text-transform: uppercase;
+    padding: 10px 10px;
+    transition: 0.3s;
+}
+
+.action-popup-edit {
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+.action-popup-delete {
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.action-popup-edit:hover,
+.action-popup-delete:hover {
+    font-size: 17px;
+    background-color: rgb(97, 97, 99, 0.2);
+}
+
+.action-popup-edit:active,
+.action-popup-delete:active {
+    background-color: rgba(97, 97, 99, 0.3);
+}
