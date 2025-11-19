@@ -61,13 +61,6 @@ height: 72px;
     outline: 1px solid var(--beige-color);
 }
 
-.amount-input:focus,
-.description-input:focus,
-.category-input:focus {
-    outline: 1px solid var(--light-brown-color);
-    border: 1px solid white;
-}
-
 .amount-input,
 .category-input {
     width: 20%;

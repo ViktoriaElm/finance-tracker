@@ -22,10 +22,10 @@ export default function TransactionItem() {
                         12 000 <span className="plan-fact-finace-information-currency">rub</span>
                     </p>
 
-                    <p>-</p>
+                    {/* <p>-</p> */}
 
                     <p className="plan-fact-finace-information-description">
-                        Here will be text
+                        Here will be text Here will be text Here will be text Here will be text Here will be text Here will be text Here will be text Here will be text Here will be text Here will be text Here will be text Here will be text Here will be text text-aligntext-aligntext-aligntext-aligntext-aligntext-aligntext-aligntext-aligntext-aligntext-aligntext-aligntext-aligntext-aligntext-aligntext-aligntext-aligntext-aligntext-aligntext-aligntext-aligntext-aligntext-aligntext-aligntext-aligntext-align
                     </p>
                 </div>
 

@@ -10,12 +10,13 @@ ul {
     position: relative;
     display: flex;
     align-items: center;
-    gap: 10px;
-    min-height: 70px;
+    gap: 15px;
+    /* min-height: 70px; */
     height: fit-content;
     border: 1px solid var(--light-brown-color);
     border-radius: 5px;
     font-size: 18px;
+    padding: 18px;
 }
 
 .plan-fact-finace-information-input-box {
@@ -67,27 +68,51 @@ ul {
 
 .plan-fact-finace-information-ammoun-wrapper {
     display: flex;
+    /* flex-direction: column-reverse; */
+    flex-direction: column;
+    align-items: flex-start;
+    /* gap: 15px; */
     gap: 10px;
     flex-grow: 1;
+    height: fit-content;
+    width: fit-content;
 }
 
-.plan-fact-finace-information-ammount {}
+.plan-fact-finace-information-ammount,
+.plan-fact-finace-information-currency {
+font-size: 24px;
+}
+
+.plan-fact-finace-information-description,
+.plan-fact-finace-information-ammount {
+padding: 0;
+margin: 0;
+}
 
 .plan-fact-finace-information-currency {
     text-transform: uppercase;
 }
 
-.plan-fact-finace-information-description {}
+.plan-fact-finace-information-description {
+    text-align: left;
+}
 
 .plan-fact-finace-information-category {
+    display: flex;
+
+justify-content: center;
+align-items: center;
     min-width: 15%;
+    height: 100%;
+    border-left: 1px solid var(--light-brown-color);
+    border-right: 1px solid var(--light-brown-color);
 }
 
 .plan-fact-finace-information-category,
 .plan-fact-finace-information-actions {
     width: fit-content;
     text-transform: uppercase;
-    border-left: 1px solid var(--light-brown-color);
+    /* border-left: 1px solid var(--light-brown-color); */
 }
 
 .plan-fact-finace-information-actions {
